@@ -1,0 +1,38 @@
+{
+  "name": "mongoose-ability",
+  "version": "1.0.0",
+  "description": "Mongoose plugin for managing users' abilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha ./tests/index.js",
+    "lint": "node ./node_modules/eslint/bin/eslint.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaltsoon/mongoose-ability.git"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "author": "Kaltsoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kaltsoon/mongoose-ability/issues"
+  },
+  "homepage": "https://github.com/Kaltsoon/mongoose-ability#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "mocha": "^3.2.0",
+    "mongodb": "^2.2.16",
+    "mongoose": "^4.7.4"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "lodash": "^4.17.2"
+  }
+}

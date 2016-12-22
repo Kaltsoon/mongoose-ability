@@ -1,0 +1,16 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "extends": "airbnb",
+  "rules": {
+    "no-param-reassign": 1,
+    "import/no-extraneous-dependencies": 1,
+    "comma-dangle": ["error", {
+        "arrays": "always",
+        "objects": "always",
+        "functions": "ignore",
+    }]
+  }
+}
