@@ -1,5 +1,8 @@
 # mongoose-ability
+
 Mongoose plugin for managing users' abilities.
+
+[![Build Status](https://travis-ci.org/Kaltsoon/mongoose-ability.svg?branch=master)](https://travis-ci.org/Kaltsoon/mongoose-ability)
 
 # How to install
 
